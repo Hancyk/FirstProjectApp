@@ -1,3 +1,4 @@
+
 ﻿using FirstProjectApp;
 
 Employees Employee1 = new Employees("Wojtek", "Nowak", 32);
@@ -31,7 +32,8 @@ Employees EmployeesWithMaxResults = null;
 
 foreach (var employees in Employee)
 { if (employees.Result > MaxResult)
-    { MaxResult = employees.Result;
+    { 
+        MaxResult = employees.Result;
         EmployeesWithMaxResults = employees;
      }
  }
